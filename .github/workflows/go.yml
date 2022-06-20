@@ -18,7 +18,7 @@ jobs:
       with:
         go-version: 1.18
     - name: GO Mod
-      run: go init user
+      run: go mod init user
 
     - name: Build
       run: go build -v ./...
